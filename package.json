@@ -1,0 +1,23 @@
+{
+  "name": "csstutorial",
+  "version": "1.0.0",
+  "description": "learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass" : "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdvinod/working-with-css.git"
+  },
+  "author": "vinod",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vdvinod/working-with-css/issues"
+  },
+  "homepage": "https://github.com/vdvinod/working-with-css#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
